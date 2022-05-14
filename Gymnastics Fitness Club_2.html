@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!-- saved from url=(0102)http://127.0.0.1:5500/Complete%20Web%20Development%20Bootcamp/Project_1/Gymanstic_Fitness_club_26.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymnastics Fitness Club</title>
+<link href="./Gymnastics Fitness Club_2_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Gymnastics Fitness Club_2_files/style.css"><style>
+    /* CSS Reset */
+
+    body {
+        font-family: 'Orelega One', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('IMG/abs-gb03735f8f_1920.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+        /* background-position: center ; */
+        /* background-attachment: fixed; */
+
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 22px;
+        color: whitesmoke;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .left img {
+        width: 157px;
+        margin: auto;
+        display: block;
+
+    }
+
+    .mid {
+        display: block;
+        width: 39%;
+        margin: 35px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 48px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 48px 9px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: aqua;
+
+    }
+
+    .btn {
+        font-family: 'Orelega One', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solod grey;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(51, 51, 40);
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 129px 36px;
+        padding: 51px 22px;
+        width: 30%;
+        border-radius: 15px;
+        border-color: white;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 260px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 14px;
+        font-family: 'Orelega One', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 30%;
+        margin: 18px auto;
+    }
+</style></head>
+
+
+
+
+<body>
+    <header class="header">
+
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="./Gymnastics Fitness Club_2_files/weight-1399281__340.webp" alt="">
+            <div>Gymnastic Fitness Club</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="http://127.0.0.1:5500/Complete%20Web%20Development%20Bootcamp/Project_1/Gymanstic_Fitness_club_26.html#" class="active">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/Complete%20Web%20Development%20Bootcamp/Project_1/Gymanstic_Fitness_club_26.html#">About Us</a></li>
+                <li><a href="http://127.0.0.1:5500/Complete%20Web%20Development%20Bootcamp/Project_1/Gymanstic_Fitness_club_26.html#">Fitness Calculator</a></li>
+                <li><a href="http://127.0.0.1:5500/Complete%20Web%20Development%20Bootcamp/Project_1/Gymanstic_Fitness_club_26.html#">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Right box for butttons -->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Dhanbad Now</h1>
+        <form action="http://127.0.0.1:5500/Complete%20Web%20Development%20Bootcamp/Project_1/noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender">
+
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Locality">
+
+        </div>
+        <button class="btn">Submit
+
+        </button>
+
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
